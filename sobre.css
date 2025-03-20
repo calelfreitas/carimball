@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    color: #333333;
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f9f9f9, #eaeaea); /* Gradiente de cores neutras */
+}
+
+figure, img, h1, h2, p {
+    max-width: 550px; /* Largura máxima para melhor responsividade */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    border-radius: 30%;
+    margin: 30px auto; /* Centraliza e adiciona margem vertical */
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: #f5f5f5; /* Cor de fundo para as figuras */
+    border: 5px solid #ddd; /* Borda sólida nas figuras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+}
+
+.festivo {
+    height: auto; /* Altura automática para manter a proporção */
+    max-width: 100%; /* Largura máxima de 100% do contêiner */
+    width: 500px; /* Largura padrão */
+    border: 3px solid #ccc; /* Borda nas imagens */
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do h1 */
+    display: inline-block; /* Faz o h1 se ajustar ao conteúdo */
+    color:rgb(167, 9, 9);
+    background-color: #f9f9f9; /* Fundo para destacar o h1 */
+}
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Helvetica", Roboto Slab, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 40px;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do h1 */
+    display: inline-block; /* Faz o h1 se ajustar ao conteúdo */
+    background-color: #f9f9f9; /* Fundo para destacar o h1 */
+}
+h3 {
+    font-family: "Helvetica", Roboto Slab, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 35px;
+    font-weight: bold; /* Use "font-weight" para negrito */
+    margin-top: 30px;
+    margin-bottom: 20px; /* Adiciona espaço abaixo do h2 */
+    border: 2px solid #ffc800; /* Borda sutil no h2 */
+    border-radius: 8px; /* Bordas arredondadas */
+    display: inline-block; /* Faz o h2 se ajustar ao conteúdo */
+    background-color: #ffc800; /* Fundo para destacar o h2 */
+    padding: 10px 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+p {
+    font-size: 17px;
+    padding: 0 45px;
+    text-indent: 15px;
+    line-height: 1.6; /* Melhora o espaçamento entre linhas */
+    margin-bottom: 20px; /* Adiciona espaço abaixo dos parágrafos */
+    border: 1px solid #eee; /* Borda sutil nos parágrafos */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo para destacar os parágrafos */
+    padding: 15px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 + p {
+    text-indent: 0;
+    margin-top: -20px; /* Ajusta o espaço após o h1 */
+}
